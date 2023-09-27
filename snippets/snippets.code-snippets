@@ -1,9 +1,9 @@
 {
   "University of Gronigen C template": {
-    "prefix": ["template", "pftemplate"],
+    "prefix": "pftemplate",
     "body": [
       "/* file:   $TM_FILENAME */",
-      "/* author: ${1:Daniel Grbac Bravo} (${2:d.grbac.bravo}@student.rug.n) */",
+      "/* author: ${1:Joe Sixpack} (${2:j.sixpack}@student.rug.n) */",
       "/* date:   $CURRENT_DAY_NAME_SHORT $CURRENT_MONTH_NAME_SHORT $CURRENT_DATE $CURRENT_YEAR */",
       "/**",
       " * Description: ${3:Provide a brief description of the purpose of this program.}",
@@ -14,13 +14,14 @@
       "#define DEBUG 1",
       "",
       "int main(int argc, char *argv[]) {",
-      "  ${5:/* code */}",
-      "  return 0;",
+      "$0",
+      "return 0;",
       "}"
     ],
     "description": "Programming Fundementals (C template)",
     "scope": "c",
     "language": "c",
+    "isFileTemplate": true,
     "comments": {
       "trigger": "/**",
       "content": [

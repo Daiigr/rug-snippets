@@ -1,65 +1,46 @@
-# rug-snippets README
+# RUG Snippets
 
-This is the README for your extension "rug-snippets". After writing up a brief description, we recommend including the following sections.
+![University of Groningen Logo](https://www.rug.nl/_definition/shared/images/logo--en.png)
+
+This Visual Studio Code extension, "RUG Snippets", provides a quick and efficient way for the University of Groningen (RUG) students to create file templates in C language. The extension includes templates for file creation adhering to the University's coding standards, thereby saving time and ensuring consistency.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+With just a code snippet, students can generate a boilerplate code for a C program with just a simple trigger of snippet prefix. The snippet includes:
 
-For example if there is an image subfolder under your extension project workspace:
+- Filename
+- Author's name and email
+- Current date
+- Brief description of the program
+- Standard headers and main function declaration
+- Debug macro
 
-\!\[feature X\]\(images/feature-x.png\)
+The following is an image depicting the extension in action:
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+![RUG Snippets Usage](./images/rug_snippets_usage.png)
 
-## Requirements
+## How to Use
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+1. Install the extension into your VS Code.
+2. Open a new file and set the language mode to C.
+3. Type "pftemplate" in the new file, and press `Enter`.
+4. The snippet will run and generate the C template adhering to the University's coding standard.
+
+You can then substitute your name, email, and a brief description of your program in the predetermined placeholders.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+Currently, the extension doesn't contribute any settings. It doesn't rely on any specific settings or configuration in VS Code.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+This is the first release. There are currently no known issues. If you stumble upon any issues or wish to see any new features added to the extension, please feel free to submit them on the issues page.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Initial release of RUG Snippets.
 
 ---
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+**Enjoy Programming with RUG Snippets Extension!**
