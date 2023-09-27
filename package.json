@@ -1,0 +1,20 @@
+{
+  "name": "rug-snippets",
+  "displayName": "RUG Snippets",
+  "description": "set of snippets that are useful for generating programming fundementals templates",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "c",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
