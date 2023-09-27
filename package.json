@@ -3,7 +3,7 @@
   "displayName": "RUG Snippets",
   "description": "Set of snippets that are useful for generating programming fundamentals templates",
   "publisher": "Daiigr",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/Daiigr/rugSnippets.git"
