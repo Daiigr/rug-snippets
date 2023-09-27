@@ -22,5 +22,12 @@
       }
     ]
   },
-  "icon": "./images/rug_logo.png"
+  "icon": "./images/rug_logo.png",
+
+  "devDependencies": {
+    "@vscode/vsce": "^2.21.0"
+  },
+  "scripts": {
+    "deploy": "vsce publish --yarn"
+  }
 }
