@@ -4,6 +4,10 @@
   "description": "set of snippets that are useful for generating programming fundementals templates",
   "publisher": "Daiigr",
   "version": "0.0.1",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/Daiigr/rugSnippets.git"
+  },
   "engines": {
     "vscode": "^1.82.0"
   },
