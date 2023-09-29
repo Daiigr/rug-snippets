@@ -4,7 +4,7 @@
     "body": [
       "/* file:   $TM_FILENAME */",
       "/* author: ${1:Joe Sixpack} (${2:j.sixpack}@student.rug.n) */",
-      "/* date:   $CURRENT_DAY_NAME_SHORT $CURRENT_MONTH_NAME_SHORT $CURRENT_DATE $CURRENT_YEAR */",
+      "/* date:   $CURRENT_DAY_NAME_SHORT $CURRENT_MONTH_NAME_SHORT $CURRENT_DATE $CURRENT_YEAR */","/*Version:0.0.1*/",
       "/**",
       " * Description: ${3:Provide a brief description of the purpose of this program.}",
       " */",
